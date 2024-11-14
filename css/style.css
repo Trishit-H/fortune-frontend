@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100vh;
+  /* padding: 20px; */
+  overflow-y: auto;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+#heading h1 {
+  font-family: 'Bungee Shade', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  letter-spacing: 4px;
+  padding: 10px;
+}
+
+header #img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+header #img img {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Road Rage', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#card {
+  max-width: 320px;
+  min-height: 100px;
+  padding: 10px;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  box-shadow: -10px 10px 0px rgba(0, 0, 0);
+  border: 1px solid #8f8a8a;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word; /* Ensures long words break */
+  overflow-wrap: break-word; /* Wraps words to prevent overflow */
+  overflow: hidden; /* Ensures content doesn’t spill out */
+  white-space: normal; /* Allows text to wrap */
+}
+
+button#btn-fortune {
+  margin-top: 10px;
+  align-self: center;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-family: 'Road Rage', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #8f8a8a;
+  box-shadow: -4px 4px 0px rgba(0, 0, 0);
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  padding: 20px;
+  font-family: 'Road Rage', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  /* position: absolute;
+  bottom: 0; */
+}
+
+footer #question {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+footer .answer {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
