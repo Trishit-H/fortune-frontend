@@ -22,11 +22,11 @@ body {
   overflow-y: auto;
 }
 
-#main {
+/* #main {
   display: flex;
   flex-direction: column;
   gap: 60px;
-}
+} */
 
 #heading h1 {
   font-family: 'Bungee Shade', sans-serif;
